@@ -281,7 +281,7 @@ def spawn():
 #SETUP
 readArguments()
 matrix = createMx(cols, rows)
-
+highnum = base
 for i in range(init):
 	spawn()
 	
@@ -296,5 +296,4 @@ while True:
 	readInput()
 	
 	
-
 #This line is here because I wanted to get it to 300 lines
